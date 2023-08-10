@@ -10,6 +10,7 @@ import imageio
 # Ignore all warnings
 warnings.filterwarnings("ignore")
 
+# Mountain Car enviroment  v0
 
 def q_learning(env,max_episode_steps=200,n_games=2000,alpha= 0.1,gamma = 0.99):
     buckets=20
